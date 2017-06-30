@@ -1,0 +1,292 @@
+body, div, span, a, img, ul, li{
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration:none;
+}
+body{
+	text-align:center;
+	background:url("../images/picture.jpg") no-repeat;
+	background-size:100% 640px;
+	overflow:hidden;
+}
+h1{
+	color:white;
+}
+.container{
+	position:relative;
+	width:100%;
+	height:500px;
+	text-align:center;
+}
+.main1, .main2, .main3, .main4{
+	position:absolute;
+	width:100%;
+	left:100%;
+}
+.main1{
+	left:0px;
+}
+.main1 .home img{
+	width:100px;
+	height:100px;
+	margin:50px 240px 0px 240px;
+	border-radius:50%;
+}
+.main1 .word1{
+	transform:skewX(20deg);
+	-ms-transform:skewX(20deg); /* Internet Explorer 9*/
+	-moz-transform:skewX(20deg); /* Firefox */
+	-webkit-transform:skewX(20deg); /* Safari 和 Chrome */
+	-o-transform:skewX(20deg); /* Opera */
+}
+.main1 .word2{
+	transform:skewX(-20deg);
+	-ms-transform:skewX(-20deg); /* Internet Explorer 9*/
+	-moz-transform:skewX(-20deg); /* Firefox */
+	-webkit-transform:skewX(-20deg); /* Safari 和 Chrome */
+	-o-transform:skewX(-20deg); /* Opera */
+}
+.main1 span{
+	font-size:25px;
+	font-weight:bold;
+	color:#ABABAB;
+}
+.main1 .main1_dictum1 span{
+	margin:0px 270px;
+}
+.main1 .main1_dictum2 span{
+	margin:0px 250px;
+}
+.main1 .main1_dictum3 span{
+	margin:0px 83px;
+}
+.main1 .main1_dictum4 span{
+	margin:0px 210px;
+}
+.main1 .main1_dictum5 span{
+	margin:0px 63px;
+}
+.main1 .main1_dictum6 span{
+	margin:0px 170px;
+}
+.myInfo, .eduLocat, .workPhone{
+	height:100px;
+}
+.main2 .info div{
+	display:inline-block;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	line-height:20px;
+}
+.main2 .info .hid{
+	width: 100px;
+  	padding:10px;
+  	position: relative;
+  	visibility:hidden;
+}
+.main2 .info img{
+	width:60px;
+	height:40px;
+	margin:0px 10px;
+	vertical-align:top;
+	cursor:pointer;
+}
+.main2 .info .img2{
+	margin:20px 110px 0px 10px;
+}
+.main2 .info .img3{
+	margin:20px 10px 0px 110px;
+}
+.main2 .info .img4{
+	margin:0px 50px 0px 10px;
+}
+.main2 .info .img5{
+	margin:0px 10px 0px 30px;
+}
+.main2 .info #pImg{
+	width:45px;
+	height:35px;
+}
+.dialog1{
+  	width:100px;
+  	padding:10px;
+  	background-color:#5F9EA0;
+  	position:relative;
+  	border:1px solid #5F9EA0;
+  	border-radius:8px;
+  	filter:alpha(opacity=30);
+  	opacity:0.3;
+}
+
+.dialog1:after, .dialog1:before{
+  	border:solid transparent;
+  	content:' ';
+  	height:0;
+  	left:100%;
+  	position:absolute;
+  	width:0;
+}
+
+.dialog1:after{
+  	border-width:9px;
+  	border-left-color:#5F9EA0;
+  	top:15px;
+}
+.dialog2{
+  	width:100px;
+  	padding:10px;
+  	background-color:#5F9EA0;
+  	position: relative;
+  	border:1px solid #5F9EA0;
+  	border-radius:8px;
+  	filter:alpha(opacity=30);
+  	opacity:0.3;
+}
+
+.dialog2:after, .dialog2:before{
+  	border:solid transparent;
+  	content:' ';
+  	height:0;
+  	left:-19px;
+  	position:absolute;
+  	width:0;
+}
+
+.dialog2:before{
+  	border-width:9px;
+  	border-right-color:#5F9EA0;
+  	top:15px;
+}
+#eduLocat_locat, #workPhone_work{
+	vertical-align:top;
+}
+.main3 ul li{
+	width:70px;
+	height:70px;
+	margin:50px 0px 30px 80px;
+	line-height:70px;
+	border:2px solid black;
+	border-radius:50%;
+	display:inline-block;
+	vertical-align:20%;
+	position:relative;
+	z-index:2;
+	cursor:pointer;
+	background-color:#D1EEEE;
+}
+.main3 div{
+	width:200px;
+	height:40px;
+	margin-left:-15px;
+	display:inline-block;
+	border-radius:12px;
+	background-color:#96CDCD;
+}
+.main3 span{
+	height:40px;
+	line-height:40px;
+	display:inline-block;
+	font-size:20px;
+	color:white;
+	vertical-align:35%;
+}
+.main3 .js{
+	margin-left:0px;
+}
+.main3 .java{
+	margin-left:120px;
+}
+.main3 .htmlDiv{
+	width:180px;
+}
+.main3 .cssDiv{
+	width:180px;
+}
+.main3 .jsDiv{
+	width:140px;
+}
+.main3 .javaDiv{
+	width:100px;
+}
+.main4 img{
+	width:50px;
+	height:50px;
+	margin-right:20px;
+	vertical-align:middle;
+}
+.main4 .qq, .wechat{
+	margin:60px 0px;
+	font-size:30px;
+	color:#CCCCCC;
+}
+.main4 .qq_q, .wechat_w{
+	margin-right:20px;
+	display:inline-block;
+}
+.main4 input{
+	padding:3px 15px;
+	border-radius:8px;
+	background-color:#96CDCD;
+	cursor:pointer;
+}
+.main4 .wechat .erweima{
+	display:none;
+}
+.main4 .wechat .erweima_img{
+	width:100px;
+	height:100px;
+	margin:20px 0px 0px 290px;
+}
+
+.list{
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+.list .list1{
+	width:800px;
+	margin:0 auto;
+}
+.list .list1 div{
+	width:97px;
+	margin:0px 45px;
+	display:inline-block;
+	filter:alpha(opacity=30);
+  	opacity:0.3;
+}
+.list .list1 .sp1{
+	margin:0px auto;
+	padding:3px 10px;
+	border:1px solid gray;
+	border-radius:8px;
+	background-color:#4D4D4D;
+	color:white;
+}
+.list .list1 .sp2{
+	width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid gray;
+    display:inline-block;
+}
+.list .list2{
+	width:800px;
+	height:50px;
+	margin:0px auto;
+	border-radius:15px;
+	background-image:url("../images/picture1.jpg");
+}
+.list .list2 div{
+	width:100px;
+	height:100px;
+	margin:0px 43px 41px;
+	display:inline-block;
+}
+.list .list2 img{
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	vertical-align:text-top;
+}
